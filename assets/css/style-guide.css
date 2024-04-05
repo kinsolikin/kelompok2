@@ -1,0 +1,719 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.guide {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .guide .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 2300px;
+    position: relative;
+  }
+  
+  .guide .overlap {
+    position: absolute;
+    width: 1458px;
+    height: 372px;
+    top: 1957px;
+    left: -6px;
+  }
+
+  .btn-guide{
+    display:  inline-block;
+    color: #417F3E;
+    background:white;
+    font-size: 24px;
+    padding: 10px 40px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 16px;
+    transition: ease .40s;
+    margin-left: 15%;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.btn-guide:hover {
+  transform: scale(1.1);
+  background: #351aaa;
+  border: 2px solid #351aaa;
+  color: var(--bg-color);
+  transition: .1s;
+}
+  .guide .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 372px;
+    top: 0;
+    left: 6px;
+    object-fit: cover;
+  }
+  
+  .guide .rectangle-2 {
+    position: absolute;
+    width: 1458px;
+    height: 372px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(65, 127, 62, 0) 0%, rgb(65, 127, 62) 79.56%);
+  }
+  
+  .guide .text-wrapper {
+    position: absolute;
+    width: 797px;
+    height: 66px;
+    top: 110px;
+    left: 574px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    text-align: right;
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  
+  .guide .rectangle-3 {
+    position: absolute;
+    width: 219px;
+    height: 52px;
+    top: 269px;
+    left: 1152px;
+  }
+  
+  .guide .text-wrapper-2 {
+    top: 272px;
+    left: 1217px;
+    position: absolute;
+    width: 89px;
+    height: 44px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #417f3e;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .p {
+    position: absolute;
+    height: 48px;
+    top: 50px;
+    left: 618px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: -0.35px;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .guide .group {
+    position: absolute;
+    width: 1440px;
+    height: 175px;
+    top: 2329px;
+    left: 0;
+  }
+  
+  .guide .overlap-group {
+    position: relative;
+    width: 1452px;
+    height: 175px;
+  }
+  
+  .guide .overlap-group-wrapper {
+    position: absolute;
+    width: 1452px;
+    height: 175px;
+    top: 0;
+    left: 0;
+  }
+  
+  .guide .overlap-group-2 {
+    position: relative;
+    width: 1440px;
+    height: 175px;
+    background-color: #417f3e;
+  }
+  
+  .guide .text-wrapper-3 {
+    position: absolute;
+    height: 18px;
+    top: 94px;
+    left: 75px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-4 {
+    position: absolute;
+    height: 24px;
+    top: 58px;
+    left: 993px;
+    font-family: "Poppins", Helvetica;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-5 {
+    position: absolute;
+    height: 24px;
+    top: 58px;
+    left: 1083px;
+    font-family: "Poppins", Helvetica;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-6 {
+    position: absolute;
+    height: 24px;
+    top: 59px;
+    left: 1173px;
+    font-family: "Poppins", Helvetica;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-7 {
+    position: absolute;
+    height: 24px;
+    top: 59px;
+    left: 1270px;
+    font-family: "Poppins", Helvetica;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-8 {
+    position: absolute;
+    height: 45px;
+    top: 41px;
+    left: 75px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .facebook-logo {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: 96px;
+    left: 1336px;
+  }
+  
+  .guide .img {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 96px;
+    left: 1297px;
+  }
+  
+  .guide .overlap-2 {
+    position: absolute;
+    width: 1458px;
+    height: 1116px;
+    top: 476px;
+    left: -18px;
+  }
+  
+  .guide .rectangle-4 {
+    position: absolute;
+    width: 1440px;
+    height: 376px;
+    top: 0;
+    left: 18px;
+    object-fit: cover;
+  }
+  
+  .guide .rectangle-5 {
+    position: absolute;
+    width: 1440px;
+    height: 375px;
+    top: 376px;
+    left: 18px;
+    object-fit: cover;
+  }
+  
+  .guide .rectangle-6 {
+    position: absolute;
+    width: 1440px;
+    height: 365px;
+    top: 751px;
+    left: 18px;
+    object-fit: cover;
+  }
+  
+  .guide .rectangle-7 {
+    position: absolute;
+    width: 1458px;
+    height: 376px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(65, 127, 62, 0) 0%, rgb(65, 127, 62) 79.56%);
+  }
+  
+  .guide .rectangle-8 {
+    position: absolute;
+    width: 1458px;
+    height: 378px;
+    top: 374px;
+    left: 0;
+    background: linear-gradient(90deg, rgb(65, 127, 62) 20.3%, rgba(65, 127, 62, 0) 100%);
+  }
+  
+  .guide .rectangle-9 {
+    position: absolute;
+    width: 1458px;
+    height: 365px;
+    top: 751px;
+    left: 0;
+    background: linear-gradient(90deg, rgba(65, 127, 62, 0) 0%, rgb(65, 127, 62) 79.56%);
+  }
+  
+  .guide .text-wrapper-9 {
+    position: absolute;
+    width: 661px;
+    height: 66px;
+    top: 138px;
+    left: 718px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    text-align: right;
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  
+  .guide .berikut-adalah {
+    position: absolute;
+    width: 661px;
+    height: 66px;
+    top: 905px;
+    left: 700px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    text-align: right;
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  
+  .guide .text-wrapper-10 {
+    position: absolute;
+    width: 841px;
+    height: 90px;
+    top: 514px;
+    left: 93px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  
+  .guide .rectangle-10 {
+    position: absolute;
+    width: 219px;
+    height: 52px;
+    top: 254px;
+    left: 1164px;
+  }
+  
+  .guide .rectangle-11 {
+    position: absolute;
+    width: 219px;
+    height: 52px;
+    top: 995px;
+    left: 1165px;
+  }
+  
+  .guide .rectangle-12 {
+    position: absolute;
+    width: 219px;
+    height: 52px;
+    top: 620px;
+    left: 92px;
+  }
+  
+  .guide .text-wrapper-11 {
+    top: 257px;
+    left: 1229px;
+    position: absolute;
+    width: 89px;
+    height: 44px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #417f3e;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-12 {
+    top: 998px;
+    left: 1230px;
+    position: absolute;
+    width: 89px;
+    height: 44px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #417f3e;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-13 {
+    top: 623px;
+    left: 157px;
+    position: absolute;
+    width: 89px;
+    height: 44px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #417f3e;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .tips-memilih-lokasi {
+    position: absolute;
+    height: 48px;
+    top: 80px;
+    left: 718px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: -0.35px;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .guide .text-wrapper-14 {
+    position: absolute;
+    height: 48px;
+    top: 455px;
+    left: 91px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: -0.35px;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .guide .text-wrapper-15 {
+    position: absolute;
+    height: 48px;
+    top: 847px;
+    left: 700px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: -0.35px;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .guide .overlap-3 {
+    position: absolute;
+    width: 1458px;
+    height: 365px;
+    top: 1592px;
+    left: -18px;
+  }
+  
+  .guide .rectangle-13 {
+    position: absolute;
+    width: 1440px;
+    height: 365px;
+    top: 0;
+    left: 18px;
+    object-fit: cover;
+  }
+  
+  .guide .rectangle-14 {
+    position: absolute;
+    width: 1458px;
+    height: 365px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgb(65, 127, 62) 20.3%, rgba(65, 127, 62, 0) 100%);
+  }
+  
+  .guide .text-wrapper-16 {
+    position: absolute;
+    width: 729px;
+    height: 66px;
+    top: 100px;
+    left: 93px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  
+  .guide .rectangle-15 {
+    position: absolute;
+    width: 219px;
+    height: 52px;
+    top: 250px;
+    left: 93px;
+  }
+  
+  .guide .text-wrapper-17 {
+    top: 253px;
+    left: 158px;
+    position: absolute;
+    width: 89px;
+    height: 44px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #417f3e;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-18 {
+    position: absolute;
+    height: 48px;
+    top: 44px;
+    left: 93px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: -0.35px;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .guide .overlap-4 {
+    position: absolute;
+    width: 1440px;
+    height: 376px;
+    top: 100px;
+    left: 0;
+    background-image: url(../img/guide/mask-group.png);
+    background-size: 100% 100%;
+  }
+  
+  .guide .text-wrapper-19 {
+    position: absolute;
+    width: 1290px;
+    height: 67px;
+    top: 94px;
+    left: 75px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-20 {
+    position: absolute;
+    width: 723px;
+    height: 51px;
+    top: 176px;
+    left: 75px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  
+  .guide .overlap-wrapper {
+    position: absolute;
+    width: 1442px;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+  
+  .guide .overlap-5 {
+    position: relative;
+    width: 1440px;
+    height: 100px;
+    background-color: #417f3e;
+  }
+  
+  .guide .frame {
+    top: 29px;
+    left: 763px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+  }
+  
+  .guide .text-wrapper-21 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Paytone One", Helvetica;
+    color: #f0e9de;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .div-wrapper {
+    top: 29px;
+    left: 851px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+  }
+  
+  .guide .text-wrapper-22 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Paytone One", Helvetica;
+    color: #f0e9de;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .frame-2 {
+    top: 29px;
+    left: 938px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+  }
+  
+  .guide .overlap-group-3 {
+    position: absolute;
+    width: 99px;
+    height: 42px;
+    top: 29px;
+    left: 1211px;
+  }
+  
+  .guide .vector {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 16px;
+    left: 0;
+  }
+  
+  .guide .frame-3 {
+    top: 0;
+    left: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+  }
+  
+  .guide .frame-4 {
+    top: 29px;
+    left: 1049px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+  }
+  
+  .guide .text-wrapper-23 {
+    position: absolute;
+    height: 45px;
+    top: 23px;
+    left: 75px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .ellipse {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 30px;
+    left: 1321px;
+    object-fit: cover;
+  }
+  

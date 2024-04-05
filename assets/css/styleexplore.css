@@ -1,0 +1,131 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+.guide {
+   
+    flex-direction: row;
+  
+    width: 100%;
+  }
+  
+  .guide .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 400px;
+    
+  }
+ 
+  
+ 
+
+
+  .guide .overlap-4 {
+    position: absolute;
+    width: 1440px;
+    height: 376px;
+    top: 100px;
+    left: 0;
+    background-image: url(../img/guide/mask-group.png);
+    background-size: 100% 100%;
+  }
+  
+  .guide .text-wrapper-19 {
+    position: absolute;
+    width: 1290px;
+    height: 67px;
+    top: 94px;
+    left: 75px;
+    font-family: "Paytone One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .guide .text-wrapper-20 {
+    position: absolute;
+    width: 723px;
+    height: 51px;
+    top: 176px;
+    left: 75px;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #ffffff;
+    font-size: var(--POPPINS-SEMI-20-font-size);
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container h2{
+    font-size: 24px;
+    text-align: left;
+    font-family: paytone one;
+  }
+
+
+
+
+  .col-img {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .text-paket {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-paket h3{
+    font-size: 24px;
+    text-align: left;
+    font-family: paytone one;
+    color: #ffffff;
+    padding-bottom: 10px;
+  }
+  .text-paket p{
+    
+    text-align: left;
+    font-family: poppins;
+    color: #ffffff;
+  }
+
+
+  .text-explore {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .text-explore h3
+  {
+    font-size: 20px;
+    color: #ffffff;
+    font-family:'paytone';
+    padding-bottom: 30px;
+   
+  }
